@@ -1,6 +1,8 @@
 
 package _99_extra;
 
+import javax.swing.JOptionPane;
+
 import org.jointheleague.graphical.robot.Robot;
 
 public class DizzyRobot {
@@ -9,9 +11,9 @@ public class DizzyRobot {
 		
 		// 1. Use the dance method below to make the robot spin.		
 		// 2. Ask the user how dizzy you want the robot from 1-10, then spin that number of times.
-	
-
-	}
+	int num = Integer.parseInt(JOptionPane.showInputDialog("Enter how dizzy ou want the robot from 1-10. "));
+/*	for (int i = 0; i )
+	*/}
 
 	/*****************   Use this method, DON'T CHANGE THE CODE BELOW  **************/
 	
